@@ -26,6 +26,8 @@ Partial Class Form1
         Me.FicheirosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CarrosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TiposDeMarcasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CombustiveisToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RevisõesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.SToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -41,7 +43,7 @@ Partial Class Form1
         '
         'FicheirosToolStripMenuItem
         '
-        Me.FicheirosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CarrosToolStripMenuItem, Me.TiposDeMarcasToolStripMenuItem})
+        Me.FicheirosToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CarrosToolStripMenuItem, Me.TiposDeMarcasToolStripMenuItem, Me.CombustiveisToolStripMenuItem, Me.RevisõesToolStripMenuItem})
         Me.FicheirosToolStripMenuItem.Name = "FicheirosToolStripMenuItem"
         Me.FicheirosToolStripMenuItem.Size = New System.Drawing.Size(66, 20)
         Me.FicheirosToolStripMenuItem.Text = "Ficheiros"
@@ -49,14 +51,26 @@ Partial Class Form1
         'CarrosToolStripMenuItem
         '
         Me.CarrosToolStripMenuItem.Name = "CarrosToolStripMenuItem"
-        Me.CarrosToolStripMenuItem.Size = New System.Drawing.Size(112, 22)
+        Me.CarrosToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.CarrosToolStripMenuItem.Text = "Carros"
         '
         'TiposDeMarcasToolStripMenuItem
         '
         Me.TiposDeMarcasToolStripMenuItem.Name = "TiposDeMarcasToolStripMenuItem"
-        Me.TiposDeMarcasToolStripMenuItem.Size = New System.Drawing.Size(112, 22)
+        Me.TiposDeMarcasToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.TiposDeMarcasToolStripMenuItem.Text = "Marcas"
+        '
+        'CombustiveisToolStripMenuItem
+        '
+        Me.CombustiveisToolStripMenuItem.Name = "CombustiveisToolStripMenuItem"
+        Me.CombustiveisToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.CombustiveisToolStripMenuItem.Text = "Combustiveis"
+        '
+        'RevisõesToolStripMenuItem
+        '
+        Me.RevisõesToolStripMenuItem.Name = "RevisõesToolStripMenuItem"
+        Me.RevisõesToolStripMenuItem.Size = New System.Drawing.Size(180, 22)
+        Me.RevisõesToolStripMenuItem.Text = "Revisões"
         '
         'SToolStripMenuItem
         '
@@ -84,4 +98,6 @@ Partial Class Form1
     Friend WithEvents CarrosToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents TiposDeMarcasToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents SToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CombustiveisToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents RevisõesToolStripMenuItem As ToolStripMenuItem
 End Class
